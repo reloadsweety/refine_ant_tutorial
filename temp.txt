@@ -1,0 +1,22 @@
+<Form.Item
+    name="password" label="Password"
+    rules={[{ required: true }]}
+    style={{ marginLeft: "35%" }}
+>
+    <Input style={{marginBottom: "8px"}} type="password" placeholder="กรอกรหัสผ่านอย่างน้อย 8 ตัวอักษร" size="large"/>
+    <Text style={{ color: "#bfbfbf"}}> รหัสผ่านควรมีทั้งตัวอักษร ตัวเลข และสัญลักษณ์ผสมกัน</Text>
+</Form.Item>
+<Form.Item
+    name="confirmPassword" label="Confirm Password"
+    rules={[{ required: true }]}
+    style={{ marginLeft: "35%" }}
+>
+    <Input type="confirmPassword" placeholder="●●●●●●●●" size="large" />
+</Form.Item>
+<Form.Item
+    name="phoneNumber" label="Phone Number"
+    rules={[{ required: true }]}
+    style={{ marginLeft: "35%" }}
+>
+    <Input size="large" placeholder="Phone Number" />
+</Form.Item>

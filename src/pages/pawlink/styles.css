@@ -1,0 +1,94 @@
+.layout{
+    /* background: linear-gradient(180deg, #ffe3e2 0%, rgba(0,212,255,1) 100%); */
+    background: #ffe3e2;
+    background-size: "cover";
+}
+
+#login .container .ant-card {
+    background: linear-gradient(180deg, #ffffff 80%, #ffe3e2 100%);
+    margin: 1.5%;
+}
+
+#login .container .ant-card-actions, .register-user .container .ant-card-actions {
+    border: 0;
+    background: transparent;
+    padding-bottom: 40px;
+}
+
+#login .container .ant-card-actions > li {
+    text-align: right;
+    padding-right: 5%;
+}
+
+#login .container .ant-card-actions > li button{
+    margin-left: 15px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+#login .title {
+    text-align: center;
+    color: #626262; 
+    font-size: 30px;
+    letter-spacing: -0.04em;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+#register-user .container{
+    margin: 1.5%;
+}
+
+#register-user .ant-radio-button-wrapper:first-child:last-child {
+    border-color: #e6a9a7;
+    color: #e6a9a7;
+}
+
+#register-user .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled){
+    color: white;
+}
+
+#register-user .ant-form-vertical .ant-form-item-label, #register-company .ant-form-vertical .ant-form-item-label{
+    padding: 0;
+}
+
+.regis-btn{
+    width: 100%;
+    vertical-align: middle;
+    font-size: 20px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.regis-company-btn{
+    width: 50%;
+    vertical-align: middle;
+    font-size: 20px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+#company-detail .ant-input{
+    width: 100%;
+}
+
+#company-type-radio {
+    width: 100%;
+}
+
+
+#company-type-radio .ant-radio-button-wrapper{
+    margin-top: 5px;
+    margin-right: 4%;
+    width: 100%;
+    max-width: 19.8%;
+    min-width: 148px;
+    text-align: center;
+}
