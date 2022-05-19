@@ -66,7 +66,7 @@ export const RegisterCompany: React.FC = () => {
                             <Card
                                 bordered={false}
                                 title={CardTitle} headStyle={{ borderBottom: 0 }}
-                                bodyStyle={{ 'height': "80vh" }}
+                                // bodyStyle={{ 'height': "80vh" }}
                             >
                                 <Row>
                                     <Col {...columnLayout} >

@@ -59,7 +59,7 @@ export const RegisterPage: React.FC = () => {
                             <Card
                                 bordered={false}
                                 title={CardTitle} headStyle={{ borderBottom: 0 }}
-                                bodyStyle={{ 'height': "80vh" }}
+                                // bodyStyle={{ 'height': "75vh" }}
                             >
                                 <Row>
                                     <Col lg={{ span: 13, offset: 8}} xs={{ span: 20, offset: 4 }}>
